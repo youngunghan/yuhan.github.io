@@ -92,7 +92,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description of role
 
-
   - title: Experience
     layout: list
     content:
@@ -192,6 +191,11 @@ content:
           Expanding knowledge horizons through free, high-quality university-level courses.
         description: | # this will include new lines to allow paragraphs
           Completed various courses through KOCW, a platform offering free open lectures and educational resources from top Korean universities. This self-directed learning experience enhanced my expertise in multiple fields, demonstrating commitment to continuous education and skill development. KOCW provides course completion certificates, validating the knowledge acquired through these online programs.
+          KOCW
+          - KOCW2
+          - KOCW3
+          KOCW4
+          
 
   
 
