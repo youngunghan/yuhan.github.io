@@ -109,14 +109,14 @@ content:
         link: http://www.aideep.ai/
         positions:
           - sub_title: Senior Research Engineer
-          - caption: Mar 2025 - Present
+            caption: Mar 2025 - Present
         # quote: >
         #   Short description of the company (optional)
         # description: | # this will include new lines to allow paragraphs
         #   Description of role
         #   AIDEEP
           - sub_title: Assistant Research Engineer
-          - caption: Dec 2023 - Mar 2025
+            caption: Dec 2023 - Mar 2025
         
 # AIDEEP
 # Full-time · 1 yr 4 mosFull-time · 1 yr 4 mos
