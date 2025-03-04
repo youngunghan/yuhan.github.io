@@ -65,15 +65,15 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: top-center
         title: SNU (Seoul National University)
         sub_title: Ph.D. Candidate. CSE (Computer Science and Engineering)
         caption: 2019.09 - 2023.08
-      - layout: top-left
+      - layout: top-center
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.S. CSIE (Computer Science and Information Engineering)
         caption: 2015.03 - 2019.08
-      - layout: top-left
+      - layout: top-center
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.A. RML (Railroad Management and Logistics)
         caption: 2015.03 - 2019.08
@@ -128,12 +128,21 @@ content:
         description: | # this will include new lines to allow paragraphs
           It leverages a ResNet50 backbone for feature extraction and includes custom layers for feature adaptation and binary bottlenecking.
 
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: MSCLIPGAN
+        link: https://github.com/youngunghan/MS-CLIP-GAN-Multi-Stage-Text-to-Image-Generation-with-CLIP-Guided-Synthesis
+        link_text: MSCLIPGAN
+        quote: >
+          This repository introduces a novel approach to text-to-image generation that utilizes CLIP embeddings in a multi-stage synthesis pipeline.
+        description: | # this will include new lines to allow paragraphs
+          The method achieves high-quality and semantically consistent image generation from textual descriptions.
+
   - title: Licenses & certifications # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
         title: Deep Unsupervised Learning using Nonequilibrium Thermodynamics
         link: https://github.com/youngunghan/Deep-Unsupervised-Learning-using-Nonequilibrium-Thermodynamics
         link_text: Init Diffusion
@@ -175,8 +184,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
         title: Deep Unsupervised Learning using Nonequilibrium Thermodynamics
         link: https://github.com/youngunghan/Deep-Unsupervised-Learning-using-Nonequilibrium-Thermodynamics
         link_text: Init Diffusion
