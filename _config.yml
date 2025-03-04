@@ -67,11 +67,12 @@ content:
     content:
       - layout: top-right
         title: SNU (Seoul National University)
-        sub_title: Ph.D. Candidate 
+        degree: Ph.D. Candidate 
+        Field_of_study: CSE (Computer Science and Engineering)       
         caption: 2019.09 - 2023.08
         # quote: >
         #   Short institution or course description (optional)
-        description: CSE (Computer Science and Engineering)
+        # description: CSE (Computer Science and Engineering)
       - layout: top-right
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.S. CSIE (Computer Science and Information Engineering)
@@ -105,16 +106,18 @@ content:
     content:
       - layout: right
         title: AIDEEP
-        sub_title: Senior Research Engineer
-        caption: Mar 2025 - Present
+        link: http://www.aideep.ai/
+        positions:
+          - sub_title: Senior Research Engineer
+          - caption: Mar 2025 - Present
         # quote: >
         #   Short description of the company (optional)
         # description: | # this will include new lines to allow paragraphs
         #   Description of role
         #   AIDEEP
-        sub_title: Assistant Research Engineer
-        caption: Dec 2023 - Mar 2025
-        link: http://www.aideep.ai/
+          - sub_title: Assistant Research Engineer
+          - caption: Dec 2023 - Mar 2025
+        
 # AIDEEP
 # Full-time · 1 yr 4 mosFull-time · 1 yr 4 mos
 # Gwacheon, Gyeonggi, South Korea · On-siteGwacheon, Gyeonggi, South Korea · On-site
