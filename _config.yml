@@ -26,7 +26,7 @@ github_username:  youngunghan
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: https://linkedin.com/in/youngunghan
+linkedin_username: youngunghan
 
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -67,7 +67,7 @@ content:
     content:
       - layout: top-right
         title: SNU (Seoul National University)
-        sub_title: Ph.D. Candidate. Computer Science and Engineering (CSE)
+        sub_title: Ph.D. Candidate. CSE (Computer Science and Engineering)
         caption: 2019.09 - 2023.08
       - layout: top-right
         title: KNUT (舊 韓國鐵道大學)
@@ -77,6 +77,24 @@ content:
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.A. RML (Railroad Management and Logistics)
         caption: 2015.03 - 2019.08
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: AIDEEP
+        link: https://www.aitimes.kr/news/articleView.html?idxno=33942
+        sub_title: Senior Research Engineer
+        caption: Mar 2025 - Present
+      - layout: right
+        title: AIDEEP
+        link: http://www.aideep.ai/
+        sub_title: Assistant Research Engineer
+        caption: Dec 2023 - Mar 2025
+        # quote: >
+        #   Short description of the company (optional)
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of role
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -99,23 +117,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Presents a novel approach to unsupervised learning using nonequilibrium thermodynamics, achieving efficient and effective learning from data.
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: AIDEEP
-        link: http://www.aideep.ai/
-        sub_title: Senior Research Engineer
-        caption: Mar 2025 - Present
-      - layout: right
-        title: AIDEEP
-        link: http://www.aideep.ai/
-        sub_title: Assistant Research Engineer
-        caption: Dec 2023 - Mar 2025
-        # quote: >
-        #   Short description of the company (optional)
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of role
+  
 
   - title: A Little More About Me
     layout: text
@@ -126,7 +128,7 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
