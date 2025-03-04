@@ -65,15 +65,15 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-center
+      - layout: center
         title: SNU (Seoul National University)
         sub_title: Ph.D. Candidate. CSE (Computer Science and Engineering)
         caption: 2019.09 - 2023.08
-      - layout: top-center
+      - layout: middle
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.S. CSIE (Computer Science and Information Engineering)
         caption: 2015.03 - 2019.08
-      - layout: top-center
+      - layout: center
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.A. RML (Railroad Management and Logistics)
         caption: 2015.03 - 2019.08
@@ -143,9 +143,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Deep Unsupervised Learning using Nonequilibrium Thermodynamics
+        #title: Deep Unsupervised Learning using Nonequilibrium Thermodynamics
         link: https://github.com/youngunghan/Deep-Unsupervised-Learning-using-Nonequilibrium-Thermodynamics
-        link_text: Init Diffusion
+        link_text: Engineer Big Data Analysis
+        caption: Dec 2023 - Mar 2025
         # additional_links:
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
