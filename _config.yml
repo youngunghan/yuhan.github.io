@@ -65,18 +65,33 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: center
+      - layout: left
         title: SNU (Seoul National University)
         sub_title: Ph.D. Candidate. CSE (Computer Science and Engineering)
         caption: 2019.09 - 2023.08
-      - layout: middle
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+
+      - layout: left
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.S. CSIE (Computer Science and Information Engineering)
         caption: 2015.03 - 2019.08
-      - layout: center
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+
+      - layout: left
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.A. RML (Railroad Management and Logistics)
         caption: 2015.03 - 2019.08
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+
 
   - title: Experience
     layout: list
@@ -85,16 +100,21 @@ content:
         title: AIDEEP
         link: https://www.aitimes.kr/news/articleView.html?idxno=33942
         sub_title: Senior Research Engineer
-        caption: Mar 2025 - Present
+        caption: Mar 2024 - Present
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+
       - layout: left
         title: AIDEEP
         link: http://www.aideep.ai/
         sub_title: Assistant Research Engineer
         caption: Dec 2023 - Mar 2025
-        # quote: >
-        #   Short description of the company (optional)
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of role
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -143,62 +163,35 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        #title: Deep Unsupervised Learning using Nonequilibrium Thermodynamics
-        link: https://github.com/youngunghan/Deep-Unsupervised-Learning-using-Nonequilibrium-Thermodynamics
-        link_text: Engineer Big Data Analysis
-        caption: Dec 2023 - Mar 2025
-        # additional_links:
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Engineer Big Data Analysis
+        caption: Jul 2024 - Present
         quote: >
-          This project implements deep unsupervised learning techniques using nonequilibrium thermodynamics principles.
+          A certification for professionals who demonstrate expertise in applying advanced data science tools and techniques to analyze complex datasets and drive data-informed decisions.
         description: | # this will include new lines to allow paragraphs
-          Presents a novel approach to unsupervised learning using nonequilibrium thermodynamics, achieving efficient and effective learning from data.
+          The Engineer Big Data Analysis certification validates proficiency in big data analytics, including advanced statistical methods and predictive modeling skills and ability to extract actionable insights from large datasets.
 
   - title: Extracurricular Activities # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Deep Unsupervised Learning using Nonequilibrium Thermodynamics
-        link: https://github.com/youngunghan/Deep-Unsupervised-Learning-using-Nonequilibrium-Thermodynamics
-        link_text: Init Diffusion
-        # additional_links:
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: OUTTA
+        link: https://outta.ai/
+        link_text: OUTTA
         quote: >
-          Implements deep unsupervised learning techniques using nonequilibrium thermodynamics principles.
+          Empowering the next generation through innovative AI education and fostering out-of-the-box thinking.
         description: | # this will include new lines to allow paragraphs
-          Presents a novel approach to unsupervised learning using nonequilibrium thermodynamics, achieving efficient and effective learning from data.
+          As a leadership team member at OUTTA, I contribute to revolutionizing AI education through innovative programs and nationwide bootcamps. Working with experts from top global universities, we develop cutting-edge curricula in AI, machine learning, and NLP. Our efforts have reached over 450 university students in 2023, providing dynamic learning opportunities and fostering healthy competition in the field of artificial intelligence.
 
 
   - title: Courses # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Deep Unsupervised Learning using Nonequilibrium Thermodynamics
-        link: https://github.com/youngunghan/Deep-Unsupervised-Learning-using-Nonequilibrium-Thermodynamics
-        link_text: Init Diffusion
-        # additional_links:
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: KOCW
         quote: >
-          Implements deep unsupervised learning techniques using nonequilibrium thermodynamics principles.
+          Expanding knowledge horizons through free, high-quality university-level courses.
         description: | # this will include new lines to allow paragraphs
-          Presents a novel approach to unsupervised learning using nonequilibrium thermodynamics, achieving efficient and effective learning from data.
+          Completed various courses through KOCW, a platform offering free open lectures and educational resources from top Korean universities. This self-directed learning experience enhanced my expertise in multiple fields, demonstrating commitment to continuous education and skill development. KOCW provides course completion certificates, validating the knowledge acquired through these online programs.
 
   
 
