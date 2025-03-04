@@ -65,15 +65,15 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: SNU (Seoul National University)
         sub_title: Ph.D. Candidate. CSE (Computer Science and Engineering)
         caption: 2019.09 - 2023.08
-      - layout: top-right
+      - layout: top-left
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.S. CSIE (Computer Science and Information Engineering)
         caption: 2015.03 - 2019.08
-      - layout: top-right
+      - layout: top-left
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.A. RML (Railroad Management and Logistics)
         caption: 2015.03 - 2019.08
@@ -81,12 +81,12 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: AIDEEP
         link: https://www.aitimes.kr/news/articleView.html?idxno=33942
         sub_title: Senior Research Engineer
         caption: Mar 2025 - Present
-      - layout: right
+      - layout: left
         title: AIDEEP
         link: http://www.aideep.ai/
         sub_title: Assistant Research Engineer
@@ -116,6 +116,17 @@ content:
           Implements deep unsupervised learning techniques using nonequilibrium thermodynamics principles.
         description: | # this will include new lines to allow paragraphs
           Presents a novel approach to unsupervised learning using nonequilibrium thermodynamics, achieving efficient and effective learning from data.
+      
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: TBH
+        link: https://github.com/youngunghan/TBH
+        link_text: TBH
+        quote: >
+          The TBH project is a deep learning framework designed for retrieval tasks, utilizing a hashing-based approach
+        description: | # this will include new lines to allow paragraphs
+          It leverages a ResNet50 backbone for feature extraction and includes custom layers for feature adaptation and binary bottlenecking.
 
   - title: Licenses & certifications # Title for the section
     layout: list # Type of content section (list/text)
@@ -134,7 +145,7 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Implements deep unsupervised learning techniques using nonequilibrium thermodynamics principles.
+          This project implements deep unsupervised learning techniques using nonequilibrium thermodynamics principles.
         description: | # this will include new lines to allow paragraphs
           Presents a novel approach to unsupervised learning using nonequilibrium thermodynamics, achieving efficient and effective learning from data.
 
