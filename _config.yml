@@ -148,8 +148,6 @@ content:
           It leverages a ResNet50 backbone for feature extraction and includes custom layers for feature adaptation and binary bottlenecking.
 
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
         title: MSCLIPGAN
         link: https://github.com/youngunghan/MS-CLIP-GAN-Multi-Stage-Text-to-Image-Generation-with-CLIP-Guided-Synthesis
         link_text: MSCLIPGAN
@@ -187,18 +185,22 @@ content:
     content:
       - layout: left
         title: KOCW
+        link: https://github.com/youngunghan/MS-CLIP-GAN-Multi-Stage-Text-to-Image-Generation-with-CLIP-Guided-Synthesis
+        link_text: certificates
         quote: >
           Expanding knowledge horizons through free, high-quality university-level courses.
         description: | # this will include new lines to allow paragraphs
-          Completed various courses through KOCW, a platform offering free open lectures and educational resources from top Korean universities. This self-directed learning experience enhanced my expertise in multiple fields, demonstrating commitment to continuous education and skill development. KOCW provides course completion certificates, validating the knowledge acquired through these online programs.
-          KOCW
-          - KOCW2
-          - KOCW3
-          KOCW4
+          - Linear Algebra (Hanyang, Sejong University)
+          - Probability and Statistics (Hanyang University)
+          - Introduction to Analysis (Sejong University)
+          - Mathematical Statistics (Pusan National University)
+          - Advanced Calculus (Sejong University)
+          - Algorithms (Konkuk University)
+          - Basic Applied Mathematics (University of Science and Technology)
+          - Algebraic Methods for Linear Programming and Duality (Korea Tech)
+          - Understanding Linear Programming (Korea Tech)
+          - Basic Mathematics for Management Science and Optimization (Korea Tech)
           
-
-  
-
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
