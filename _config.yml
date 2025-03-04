@@ -66,12 +66,19 @@ content:
     content:
       - layout: top-right
         title: SNU (Seoul National University)
+        sub_title: Ph.D. Candidate
         sub_title: CSE (Computer Science and Engineering)
         caption: 2019.09 - 2023.08
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Ph.D. Candidate
+        # quote: >
+        #   Short institution or course description (optional)
+        # description: | # this will include new lines to allow paragraphs
+        #   this will include new lines to allow paragraphs
+      - layout: top-right
+        title: KNUT (舊 韓國鐵道大學)
+        sub_title: B.S.
+        sub_title: CSIE (Computer Science and Information Engineering)
+        sub_title: RML (Railroad Management and Logistics)
+        caption: 2015.03 - 2019.08
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
