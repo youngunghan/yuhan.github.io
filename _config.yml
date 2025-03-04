@@ -9,35 +9,35 @@ version: 2
 name: Youngung HAN
 title: CS / AI Scientist & Engineer
 email: yuhan@snu.ac.kr
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
+email_title: Email (Email title override)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+website: https://blog.outta.ai/
+website_title: techblog (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
-# github_username:  jekyll
+github_username:  youngunghan
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-# linkedin_username: jekyll
+linkedin_username: https://www.linkedin.com/in/youngunghan/
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
-# orcid_username: 0000-0000-0000-0000
-# googlescholar_username: D847cGsAAAAJ
+orcid_username: 0009-0008-0596-8367
+googlescholar_username: KUTvLfQAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,8 +49,8 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_title: About Me (Use this to override about section title)
+about_profile_image: images/my_photo.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -76,6 +76,11 @@ content:
       - layout: top-right
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.S.
+        sub_title: CSIE (Computer Science and Information Engineering)
+        caption: 2015.03 - 2019.08
+      - layout: top-right
+        title: KNUT (舊 韓國鐵道大學)
+        sub_title: B.A.
         sub_title: CSIE (Computer Science and Information Engineering)
         sub_title: RML (Railroad Management and Logistics)
         caption: 2015.03 - 2019.08
@@ -103,7 +108,7 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
+        title: AIDEEP
         sub_title: Job title
         caption: Date Range (eg. November 2016 - present)
         link: Link to company (optional)
