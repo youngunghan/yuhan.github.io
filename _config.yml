@@ -67,18 +67,15 @@ content:
     content:
       - layout: top-right
         title: SNU (Seoul National University)
-        sub_title: Ph.D. Candidate CSE (Computer Science and Engineering)
+        sub_title: Ph.D. Candidate 
         caption: 2019.09 - 2023.08
         # quote: >
         #   Short institution or course description (optional)
-        # description: | # this will include new lines to allow paragraphs
-        #   this will include new lines to allow paragraphs
+        description: CSE (Computer Science and Engineering)
       - layout: top-right
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.S. CSIE (Computer Science and Information Engineering)
         caption: 2015.03 - 2019.08
-      - layout: top-right
-        title: KNUT (舊 韓國鐵道大學)
         sub_title: B.A. RML (Railroad Management and Logistics)
         caption: 2015.03 - 2019.08
 
@@ -110,15 +107,11 @@ content:
         title: AIDEEP
         sub_title: Senior Research Engineer
         caption: Mar 2025 - Present
-        link: http://www.aideep.ai/
         # quote: >
         #   Short description of the company (optional)
         # description: | # this will include new lines to allow paragraphs
         #   Description of role
         #   AIDEEP
-    content:
-      - layout: right
-        title: AIDEEP
         sub_title: Assistant Research Engineer
         caption: Dec 2023 - Mar 2025
         link: http://www.aideep.ai/
