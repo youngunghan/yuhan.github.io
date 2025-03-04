@@ -7,13 +7,13 @@ version: 2
 
 # Personal info
 name: Youngung HAN
-title: CS / AI Scientist & Engineer
+title: CS / AI Scientist and Engineer
 email: yuhan@snu.ac.kr
-email_title: Email (Email title override)
+email_title: Email
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 website: https://blog.outta.ai/
-website_title: techblog (Website title override)
+website_title: Techblog
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -26,7 +26,7 @@ github_username:  youngunghan
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: https://www.linkedin.com/in/youngunghan/
+linkedin_username: www.linkedin.com/in/youngunghan
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -66,24 +66,23 @@ content:
     content:
       - layout: top-right
         title: SNU (Seoul National University)
-        sub_title: Ph.D. Candidate
-        sub_title: CSE (Computer Science and Engineering)
+        sub_title: Ph.D. Candidate | CSE (Computer Science and Engineering)
         caption: 2019.09 - 2023.08
         # quote: >
         #   Short institution or course description (optional)
         # description: | # this will include new lines to allow paragraphs
         #   this will include new lines to allow paragraphs
+    content:
       - layout: top-right
         title: KNUT (舊 韓國鐵道大學)
-        sub_title: B.S.
-        sub_title: CSIE (Computer Science and Information Engineering)
+        sub_title: B.S. | CSIE (Computer Science and Information Engineering)
         caption: 2015.03 - 2019.08
+    content:
       - layout: top-right
         title: KNUT (舊 韓國鐵道大學)
-        sub_title: B.A.
-        sub_title: CSIE (Computer Science and Information Engineering)
-        sub_title: RML (Railroad Management and Logistics)
+        sub_title: B.A. | RML (Railroad Management and Logistics)
         caption: 2015.03 - 2019.08
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -104,18 +103,31 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
+
   - title: Experience
     layout: list
     content:
       - layout: right
         title: AIDEEP
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        sub_title: Assistant Research Engineer
+        caption: Dec 2023 - Mar 2025
+        link: http://www.aideep.ai/
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
+          AIDEEP
+# AIDEEP
+# Full-time · 1 yr 4 mosFull-time · 1 yr 4 mos
+# Gwacheon, Gyeonggi, South Korea · On-siteGwacheon, Gyeonggi, South Korea · On-site
+# Senior Research Engineer
+# Senior Research Engineer
+# Mar 2025 - Present · 1 moMar 2025 to Present · 1 mo
+# Assistant Research Engineer
+# Assistant Research Engineer
+# Dec 2023 - Mar 2025 · 1 yr 4 mosDec 2023 to Mar 2025 · 1 yr 4 mos
+# Skills: Image Processing · Computer Vision · Generative AI
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
