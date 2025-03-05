@@ -90,7 +90,7 @@ content:
         sub_title: Kim, S., Kim, Y., Min, S., Han, Y., Lim, J., Kim, I., & Kim, W. (2024, October). Transformer-Based Unsupervised Deep Hashing Using Knowledge Distillation for Image Retrieval. In 2024 3rd International Conference on Artificial Intelligence and Software Engineering (ICAISE) (pp. 7-11). IEEE.
       
       - layout: top-middle
-        sub_title: A Dual-Module System for Copyright-Free Image Recommendation and Infringement Detection in Educational Materials
+        sub_title: Kim, Y., Kim, S., Min, S., Han, Y., Lee, O., & Kim, W. (2024). A Dual-Module System for Copyright-Free Image Recommendation and Infringement Detection in Educational Materials. Journal of Imaging, 10(11), 277.
 
   - title: Experience
     layout: list
@@ -194,6 +194,7 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: KOCW
+        caption: Feb 2023 - Present
         link: https://drive.google.com/drive/folders/1QyLaAz83HCVJCnGUuv3O0IAu_dalO_R_?usp=drive_link
         link_text: certificates
         quote: >
@@ -209,6 +210,7 @@ content:
       
       - layout: left
         title: KMOOC
+        caption: Apr 2017 - Present
         link: https://drive.google.com/drive/folders/1rnktJnYb_8axL-yqNlhN15Tatnt1ayz7?usp=drive_link
         link_text: certificates
         quote: >
