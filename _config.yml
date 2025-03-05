@@ -50,7 +50,7 @@ googlescholar_username: KUTvLfQAAAAJ
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Research Interest
+about_title: About me
 about_profile_image: images/my_photo.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
@@ -65,32 +65,32 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: SNU (Seoul National University)
         sub_title: Ph.D. Candidate. CSE (Computer Science and Engineering)
         caption: 2019.09 - 2023.08
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        # quote: >
+        #   Short description of the company (optional)
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of role
 
-      - layout: left
+      - layout: top-middle
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.S. CSIE (Computer Science and Information Engineering)
         caption: 2015.03 - 2019.08
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        # quote: >
+        #   Short description of the company (optional)
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of role
 
-      - layout: left
+      - layout: top-middle
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.A. RML (Railroad Management and Logistics)
         caption: 2015.03 - 2019.08
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        # quote: >
+        #   Short description of the company (optional)
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of role
 
   - title: Experience
     layout: list
@@ -166,6 +166,14 @@ content:
           A certification for professionals who demonstrate expertise in applying advanced data science tools and techniques to analyze complex datasets and drive data-informed decisions.
         description: | # this will include new lines to allow paragraphs
           The Engineer Big Data Analysis certification validates proficiency in big data analytics, including advanced statistical methods and predictive modeling skills and ability to extract actionable insights from large datasets.
+      
+      - layout: left
+        title: Engineer Big Data Analysis
+        caption: Jul 2024 - Present
+        quote: >
+          A certification for professionals who demonstrate expertise in applying advanced data science tools and techniques to analyze complex datasets and drive data-informed decisions.
+        description: | # this will include new lines to allow paragraphs
+          The Engineer Big Data Analysis certification validates proficiency in big data analytics, including advanced statistical methods and predictive modeling skills and ability to extract actionable insights from large datasets.
 
   - title: Extracurricular Activities # Title for the section
     layout: list # Type of content section (list/text)
@@ -184,11 +192,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: KOCW
-        link: https://github.com/youngunghan/MS-CLIP-GAN-Multi-Stage-Text-to-Image-Generation-with-CLIP-Guided-Synthesis
+        link: https://drive.google.com/drive/folders/1QyLaAz83HCVJCnGUuv3O0IAu_dalO_R_?usp=drive_link
         link_text: certificates
         quote: >
-          Expanding knowledge horizons through free, high-quality university-level courses.
+          Embracing lifelong learning through diverse, high-quality university courses to expand mathematical and computational expertise.
         description: | # this will include new lines to allow paragraphs
           Linear Algebra (Hanyang, Sejong University) <br/>
           Probability and Statistics (Hanyang University) <br/>
@@ -197,9 +207,23 @@ content:
           Advanced Calculus (Sejong University) <br/>
           Algorithms (Konkuk University) <br/>
           Basic Applied Mathematics (University of Science and Technology) <br/>
-          Algebraic Methods for Linear Programming and Duality (Tech University of Korea) <br/>
-          Understanding Linear Programming (Tech University of Korea) <br/>
-          Basic Mathematics for Management Science and Optimization (Tech University of Korea) <br/>
+      
+      - layout: left
+        title: KMOOC
+        link: https://drive.google.com/file/d/1d6N94ZOqrnOigk1QRA51tXOlQymYtDu7/view?usp=drive_link
+        link_text: certificates
+        quote: >
+          Empowering lifelong learning through cutting-edge AI and data science courses, fostering expertise in the rapidly evolving field of artificial intelligence.
+        description: | # this will include new lines to allow paragraphs
+          Economic Statistics <br/>
+          Mathematics for AI <br/>
+          Linear Algebra for Deep Learning <br/>
+          Statistical Learning Theory for AI Researchers <br/>
+          Neural Network and Mathematical Foundations <br/>
+          Image Processing and Pattern Recognition <br/>
+          Generative Models and Visual Intelligence <br/>
+          Advanced Deep Learning: From CNN to GAN <br/>
+          Machine Learning <br/>
     
   - title: A Little More About Me
     layout: text
