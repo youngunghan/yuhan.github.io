@@ -190,24 +190,17 @@ content:
         quote: >
           Expanding knowledge horizons through free, high-quality university-level courses.
         description: | # this will include new lines to allow paragraphs
-          - Linear Algebra (Hanyang, Sejong University)
-          - Probability and Statistics (Hanyang University)
-          - Introduction to Analysis (Sejong University)
-          - Mathematical Statistics (Pusan National University)
-          - Advanced Calculus (Sejong University)
-          - Algorithms (Konkuk University)
-          - Basic Applied Mathematics (University of Science and Technology)
-          - Algebraic Methods for Linear Programming and Duality (Korea Tech)
-          - Understanding Linear Programming (Korea Tech)
-          - Basic Mathematics for Management Science and Optimization (Korea Tech)
-
           Linear Algebra (Hanyang, Sejong University) <br/>
-          Probability and Statistics (Hanyang University) 
-
-          Introduction to Analysis (Sejong University)
-          Introduction to Analysis (Sejong University)
-
-          
+          Probability and Statistics (Hanyang University) <br/>
+          Introduction to Analysis (Sejong University) <br/>
+          Mathematical Statistics (Pusan National University) <br/>
+          Advanced Calculus (Sejong University) <br/>
+          Algorithms (Konkuk University) <br/>
+          Basic Applied Mathematics (University of Science and Technology) <br/>
+          Algebraic Methods for Linear Programming and Duality (Tech University of Korea) <br/>
+          Understanding Linear Programming (Tech University of Korea) <br/>
+          Basic Mathematics for Management Science and Optimization (Tech University of Korea) <br/>
+    
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
