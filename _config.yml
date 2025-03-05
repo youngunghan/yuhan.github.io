@@ -69,28 +69,28 @@ content:
         title: SNU (Seoul National University)
         sub_title: Ph.D. Candidate. CSE (Computer Science and Engineering)
         caption: 2019.09 - 2023.08
-        # quote: >
-        #   Short description of the company (optional)
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of role
 
       - layout: top-middle
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.S. CSIE (Computer Science and Information Engineering)
         caption: 2015.03 - 2019.08
-        # quote: >
-        #   Short description of the company (optional)
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of role
 
       - layout: top-middle
         title: KNUT (舊 韓國鐵道大學)
         sub_title: B.A. RML (Railroad Management and Logistics)
         caption: 2015.03 - 2019.08
-        # quote: >
-        #   Short description of the company (optional)
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of role
+
+  - title: Publications
+    layout: list
+    content:
+      - layout: top-middle
+        sub_title: Han, Y., Song, C., Jung, H., & LEE, S. (2018). Logistics Transportation System using Bigdata. In Proceedings of the Korean Society of Computer Information Conference (pp. 486-488). Korean Society of Computer Information.
+
+      - layout: top-middle
+        sub_title: Kim, S., Kim, Y., Min, S., Han, Y., Lim, J., Kim, I., & Kim, W. (2024, October). Transformer-Based Unsupervised Deep Hashing Using Knowledge Distillation for Image Retrieval. In 2024 3rd International Conference on Artificial Intelligence and Software Engineering (ICAISE) (pp. 7-11). IEEE.
+      
+      - layout: top-middle
+        sub_title: A Dual-Module System for Copyright-Free Image Recommendation and Infringement Detection in Educational Materials
 
   - title: Experience
     layout: list
@@ -114,6 +114,18 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
+  
+  - title: Extracurricular Activities # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: OUTTA
+        link: https://outta.ai/
+        link_text: OUTTA
+        quote: >
+          Empowering the next generation through innovative AI education and fostering out-of-the-box thinking.
+        description: | # this will include new lines to allow paragraphs
+          As a leadership team member at OUTTA, I contribute to revolutionizing AI education through innovative programs and nationwide bootcamps. Working with experts from top global universities, we develop cutting-edge curricula in AI, machine learning, and NLP. Our efforts have reached over 450 university students in 2023, providing dynamic learning opportunities and fostering healthy competition in the field of artificial intelligence.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -159,35 +171,22 @@ content:
   - title: Licenses & certifications # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Engineer Big Data Analysis
         caption: Jul 2024 - Present
-        quote: >
-          A certification for professionals who demonstrate expertise in applying advanced data science tools and techniques to analyze complex datasets and drive data-informed decisions.
-        description: | # this will include new lines to allow paragraphs
-          The Engineer Big Data Analysis certification validates proficiency in big data analytics, including advanced statistical methods and predictive modeling skills and ability to extract actionable insights from large datasets.
       
-      - layout: left
-        title: Engineer Big Data Analysis
-        caption: Jul 2024 - Present
-        quote: >
-          A certification for professionals who demonstrate expertise in applying advanced data science tools and techniques to analyze complex datasets and drive data-informed decisions.
-        description: | # this will include new lines to allow paragraphs
-          The Engineer Big Data Analysis certification validates proficiency in big data analytics, including advanced statistical methods and predictive modeling skills and ability to extract actionable insights from large datasets.
+      - layout: top-middle
+        title: Certified Professional Logistician  
+        caption: Jul 2023 - Present
 
-  - title: Extracurricular Activities # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: OUTTA
-        link: https://outta.ai/
-        link_text: OUTTA
-        quote: >
-          Empowering the next generation through innovative AI education and fostering out-of-the-box thinking.
-        description: | # this will include new lines to allow paragraphs
-          As a leadership team member at OUTTA, I contribute to revolutionizing AI education through innovative programs and nationwide bootcamps. Working with experts from top global universities, we develop cutting-edge curricula in AI, machine learning, and NLP. Our efforts have reached over 450 university students in 2023, providing dynamic learning opportunities and fostering healthy competition in the field of artificial intelligence.
+      - layout: top-middle
+        title: SQLD
+        caption: Sep 2022 - Present  
 
-
+      - layout: top-middle
+        title: Engineer Information Processing
+        caption: May 2018 - Present  
+        
   - title: Courses # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -200,17 +199,17 @@ content:
         quote: >
           Embracing lifelong learning through diverse, high-quality university courses to expand mathematical and computational expertise.
         description: | # this will include new lines to allow paragraphs
-          Linear Algebra (Hanyang, Sejong University) <br/>
-          Probability and Statistics (Hanyang University) <br/>
-          Introduction to Analysis (Sejong University) <br/>
-          Mathematical Statistics (Pusan National University) <br/>
-          Advanced Calculus (Sejong University) <br/>
-          Algorithms (Konkuk University) <br/>
-          Basic Applied Mathematics (University of Science and Technology) <br/>
+          Linear Algebra <br/>
+          Probability and Statistics <br/>
+          Introduction to Analysis <br/>
+          Mathematical Statistics <br/>
+          Advanced Calculus <br/>
+          Algorithms <br/>
+          Basic Applied Mathematics <br/>
       
       - layout: left
         title: KMOOC
-        link: https://drive.google.com/file/d/1d6N94ZOqrnOigk1QRA51tXOlQymYtDu7/view?usp=drive_link
+        link: https://drive.google.com/drive/folders/1rnktJnYb_8axL-yqNlhN15Tatnt1ayz7?usp=drive_link
         link_text: certificates
         quote: >
           Empowering lifelong learning through cutting-edge AI and data science courses, fostering expertise in the rapidly evolving field of artificial intelligence.
